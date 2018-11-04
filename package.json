@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mattandbucs34/address-bloc/issues"
   },
-  "homepage": "https://github.com/mattandbucs34/address-bloc#readme"
+  "homepage": "https://github.com/mattandbucs34/address-bloc#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0"
+  }
 }

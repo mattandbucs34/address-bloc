@@ -4,13 +4,13 @@
   "description": "An application to model an address book in Node",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export NODE_ENV=test|| set NODE_ENV=test&& jasmine"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mattandbucs34/address-bloc.git"
   },
-  "author": "",
+  "author": "Matt Johnson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mattandbucs34/address-bloc/issues"
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/mattandbucs34/address-bloc#readme",
   "dependencies": {
     "inquirer": "^5.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
   }
 }
